@@ -9,9 +9,7 @@ const App: React.FC = () => {
     };
 
     return ( <div>
-      <h1>React Typescript</h1>
-      <TextBox label='Enter Text' value='{textValue}' onChange={handleTextChange} />
-      <p>Entered Text: {textValue} </p>
+      <h1>Hello</h1>
     </div>);
 };
 
